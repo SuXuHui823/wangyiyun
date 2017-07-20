@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--轮播-->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" ng-repeat="l in obj2.lunbo1">
+					<img ng-src="img3/{{l.img}}"/>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<!--图标-->
+		<div class="tb">
+			<ul>
+				<li ng-repeat="t in obj2.tb">
+					<img ng-src="img3/{{t.img}}"/>
+					<p>{{t.p}}</p>
+				</li>
+			</ul>
+		</div>
+		<!--每日听写好节目-->
+		<h3 ng-repeat="h in obj2.h31">{{h.h3}}<span>{{h.span}}</span></h3>
+		<div class="mrtx">
+			<ul>
+				<li ng-repeat="m in obj2.mrtx">
+					<div class="mleft"><img ng-src="img3/{{m.img}}"/></div>
+					<div class="mright">
+						<p>{{m.p}}</p>
+						<p>{{m.p1}}</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<h3 ng-repeat="h in obj2.h3">{{h.h3}}</h3>
+		<!--电台个性推荐-->
+		<div class="dttj">
+			<ul>
+				<li ng-repeat="d in obj2.dttj">
+					<img ng-src="img3/{{d.img}}"/>
+					<p>{{d.p}}</p>
+				</li>
+			</ul>
+		</div>
+		<!--美文读物-->
+		<h3 ng-repeat="h in obj2.h32">{{h.h3}}</h3>
+		<div class="mwdw">
+			<ul>
+				<li ng-repeat="m in obj2.mwdw">
+					<img ng-src="img3/{{m.img}}"/>
+					<p>{{m.p}}</p>
+				</li>
+			</ul>
+		</div>
+		<!--美文读物-->
+		<h3 ng-repeat="h in obj2.h32">{{h.h3}}</h3>
+		<div class="mwdw">
+			<ul>
+				<li ng-repeat="m in obj2.mwdw">
+					<img ng-src="img3/{{m.img}}"/>
+					<p>{{m.p}}</p>
+				</li>
+			</ul>
+		</div>
+		<!--有声小说-->
+		<div class="ysxs">
+			<h3 ng-repeat="h in obj2.h33">{{h.h3}}</h3>
+			<ul>
+				<li ng-repeat="y in obj2.ysxs">
+					<img ng-src="img3/{{y.img}}"/>
+					<p>{{y.p}}</p>
+				</li>
+			</ul>
+		</div>
+		<!--明星做主播-->
+		<div class="mxzb">
+			<h3 ng-repeat="h in obj2.h34">{{h.h3}}</h3>
+			<ul>
+				<li ng-repeat="m in obj2.mxzb">
+					<img ng-src="img3/{{m.img}}"/>
+					<p>{{m.p}}</p>
+				</li>
+			</ul>
+		</div>
+		<!--脱口秀-->
+		<div class="tkx">
+			<h3 ng-repeat="h in obj2.h35">{{h.h3}}</h3>
+			<ul>
+				<li ng-repeat="t in obj2.tkx">
+					<img ng-src="img3/{{t.img}}"/>
+					<p>{{t.p}}</p>
+				</li>
+			</ul>
+		</div>
+		<!--热门分类-->
+		<div class="rmfl">
+			<h3 ng-repeat="h in obj2.h36">{{h.h3}}</h3>
+			<ul>
+				<li ng-repeat="r in obj2.rmfl">
+					<img ng-src="img3/{{r.img}}"/>
+					<p>{{r.p}}</p>
+				</li>
+			</ul>
+		</div>
+		
+		<!--更多分类-->
+		<div class="gdfl">
+			<h3 ng-repeat="h in obj2.h37">{{h.h3}}</h3>
+			<ul>
+				<li ng-repeat="g in obj2.gdfl">
+					<img ng-src="img3/{{g.img}}"/>
+					<p>{{g.p}}</p>
+				</li>
+			</ul>
+		</div>
+	</body>
+	<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+//			$.ajax({
+//				type: "get",
+//				url: "http://127.0.0.1:8023/../controller/index.js",
+//				async: true,
+//				dataType: "json",
+//				success:function(data){
+//					
+//				}
+//			})
+		</script>
+</html>

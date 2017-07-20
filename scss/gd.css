@@ -1,0 +1,85 @@
+html {
+  font-size: 62.5%; }
+
+* {
+  box-sizing: border-box; }
+
+.main .gedan .banne1 img {
+  width: 100%; }
+.main .gedan .quan {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem; }
+  .main .gedan .quan p {
+    border: 1px solid #CCCCCC;
+    width: 130px;
+    padding: 0.6rem 0;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1.6rem; }
+    .main .gedan .quan p span {
+      margin-left: 1rem;
+      color: #CCCCCC; }
+  .main .gedan .quan ul {
+    color: #555555;
+    display: flex;
+    width: 40%; }
+    .main .gedan .quan ul li {
+      border-right: 1px solid #999;
+      width: 45%; }
+.main .gedan .neirong ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .main .gedan .neirong ul li {
+    width: 49%;
+    height: 21rem; }
+    .main .gedan .neirong ul li img {
+      width: 100%;
+      height: 76%; }
+    .main .gedan .neirong ul li p {
+      font-size: 1.4rem;
+      color: #555555;
+      margin: 1rem 0.4rem 1rem;
+      line-height: 1.6rem; }
+.main h3 span {
+  font-size: 1.2rem;
+  color: #999;
+  float: right;
+  padding: 0% 3%; }
+.main .mrtx {
+  width: 100%; }
+  .main .mrtx ul li {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc; }
+    .main .mrtx ul li .mleft {
+      width: 24%; }
+      .main .mrtx ul li .mleft img {
+        width: 100%;
+        height: 6rem; }
+    .main .mrtx ul li .mright {
+      width: 70%; }
+      .main .mrtx ul li .mright p {
+        font-size: 1.4rem;
+        line-height: 3.6rem; }
+      .main .mrtx ul li .mright p:nth-of-type(2) {
+        font-size: 1rem;
+        color: #999; }
+.main .dttj {
+  width: 100%; }
+  .main .dttj ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .main .dttj ul li {
+      width: 33.3%; }
+      .main .dttj ul li img {
+        width: 99%; }
+
+/*# sourceMappingURL=gd.css.map */

@@ -1,0 +1,54 @@
+html {
+  font-size: 62.5%; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.main h3 {
+  width: 100%;
+  font-size: 1.6rem;
+  border-left: 2px solid #FF0000; }
+.main .gw {
+  width: 100%; }
+  .main .gw div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+    margin-top: 0.4rem;
+    align-items: center; }
+    .main .gw div div {
+      width: 40%; }
+      .main .gw div div img {
+        width: 100%;
+        height: 15rem; }
+    .main .gw div ol {
+      width: 50%;
+      font-size: 1.4rem;
+      line-height: 4rem;
+      color: #666;
+      letter-spacing: 1.6px; }
+  .main .gw div:nth-of-type(5) span {
+    padding-left: 1.6rem;
+    color: #999; }
+.main .dyb {
+  width: 100%;
+  margin-top: -2rem; }
+  .main .dyb ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .main .dyb ul li {
+      width: 33.3%;
+      font-size: 1.4rem;
+      letter-spacing: 0.4px;
+      margin-top: 2rem; }
+      .main .dyb ul li img {
+        width: 97%; }
+      .main .dyb ul li p {
+        width: 80%;
+        padding-top: 0.6rem; }
+
+/*# sourceMappingURL=phb.css.map */

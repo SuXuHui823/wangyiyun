@@ -1,0 +1,33 @@
+app.config(function($stateProvider,$urlRouterProvider){
+	$stateProvider.state("one",{
+		url:"/one",
+		templateUrl:"html/我的音乐.html",
+		controller:"Ctrr"
+	}).state("two",{
+		url:"/two",
+		templateUrl:"html/发现音乐.html"
+	}).state("three",{
+		url:"/three",
+		templateUrl:"html/朋友.html"
+	}).state("four",{
+		url:"/four",
+		templateUrl:"html/账号.html"
+	}).state("one.one",{
+		url:"/one.one",
+		templateUrl:"html/个性推荐.html",
+		controller:"Ctr"
+	}).state("one.two",{
+		url:"/one.two",
+		templateUrl:"html/歌单.html",
+		controller:"Ctr1"
+	}).state("one.three",{
+		url:"/one.three",
+		templateUrl:"html/主播电台.html",
+		controller:"Ctr2"
+	}).state("one.four",{
+		url:"/one.four",
+		templateUrl:"html/排行榜.html",
+		controller:"Ctr3"
+	})
+	$urlRouterProvider.otherwise("one/one.one");
+})

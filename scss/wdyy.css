@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%; }
+
+* {
+  box-sizing: border-box; }
+
+.nav {
+  width: 100%; }
+  .nav ul {
+    width: 100%;
+    height: 4rem;
+    background: #f4f4f4;
+    line-height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6rem; }
+    .nav ul .active1 {
+      color: red;
+      border-bottom: 3px solid red; }
+      .nav ul .active1 a {
+        color: red; }
+
+/*# sourceMappingURL=wdyy.css.map */

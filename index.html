@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="scss/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="scss/wdyy.css"/>
+		<link rel="stylesheet" type="text/css" href="scss/gxtj.css"/>
+		<link rel="stylesheet" type="text/css" href="scss/gd.css"/>
+		<link rel="stylesheet" type="text/css" href="scss/zbdt.css"/>
+		<link rel="stylesheet" type="text/css" href="scss/phb.css"/>
+	</head>
+	<body>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/angular-1.4.6.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/angular-ui-router.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/iscroll-probe.js" type="text/javascript" charset="utf-8"></script>
+		<script src="app.js" type="text/javascript" charset="utf-8"></script>
+		<script src="router/router.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controller/个性推荐.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controller/歌单.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controller/主播电台.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controller/排行榜.js" type="text/javascript" charset="utf-8"></script>
+		<script src="controller/我的音乐.js" type="text/javascript" charset="utf-8"></script>
+		<div id="box">
+		<!--头部-->
+			<header>
+				<p class="top">
+					<img src="img1/状态栏 白色.png"/>
+				</p>
+				<div class="bottom">
+					<img src="img1/header-1_03.jpg"/>
+					<span class="icon icon-search"></span>
+					<input type="text" name="" id="" value="" placeholder="搜索音乐、歌词、电台"/>
+					<img src="img1/header-2_03.gif"/>
+				</div>
+			</header>
+			<main ui-view>
+			</main>
+			<footer>
+				<ul>
+					<li>
+						<a ui-sref="one.one">
+							<img src="img1/footer_03.gif"/>
+							<p>发现音乐</p>
+						</a>
+					</li>
+					<li>
+						<a ui-sref="two">
+							<img src="img1/footer_05.gif"/>
+							<p>我的音乐</p>
+						</a>
+					</li>
+					<li>
+						<a ui-sref="three">
+							<img src="img1/footer_07.gif"/>
+							<p>朋友</p>
+						</a>
+					</li>
+					<li>
+						<a ui-sref="four">
+							<img src="img1/footer_09.jpg"/>
+							<p>账号</p>
+						</a>
+					</li>
+				</ul>
+			</footer>
+		</div>
+		<script type="text/javascript">
+//			$.ajax({
+//				type: "get",
+//				url: "http://127.0.0.1:8023/../controller/index.js",
+//				async: true,
+//				dataType: "json",
+//				success:function(data){
+//					
+//				}
+//			})
+
+
+		</script>
+	</body>
+</html>

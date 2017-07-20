@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<h3 ng-repeat="h in obj3.h3">{{h.h3}}</h3>
+		<!--图片-->
+		<div class="gw">
+			<div ng-repeat="g in obj3.gw">
+				<div><img ng-src="img4/{{g.img}}"/></div>
+				<ol>
+					<li>{{g.li}}</li>
+					<li>{{g.li1}}</li>
+					<li>{{g.li2}}</li>
+				</ol>
+			</div>
+			<div ng-repeat="g in obj3.gw1">
+				<div><img ng-src="img4/{{g.img}}"/></div>
+				<ol>
+					<li>{{g.li}}<span>{{g.span}}</span></li>
+					<li>{{g.li1}}<span>{{g.span1}}</span></li>
+					<li>{{g.li2}}<span>{{g.span2}}</span></li>
+				</ol>
+			</div>
+		</div>
+		<!--全球榜-->
+		<h3 ng-repeat="h in obj3.h31">{{h.h3}}</h3>
+		<!--电音管-->
+		<div class="dyb">
+			<ul>
+				<li ng-repeat="d in obj3.dyb">
+					<img ng-src="img4/{{d.img}}"/>
+					<p>{{d.p}}</p>
+				</li>
+			</ul>
+		</div>
+		<h3 ng-repeat="h in obj3.h32">{{h.h3}}</h3>
+		<div class="dyb">
+			<ul>
+				<li ng-repeat="d in obj3.dyb1">
+					<img ng-src="img4/{{d.img}}"/>
+					<p>{{d.p}}</p>
+				</li>
+			</ul>
+		</div>
+	</body>
+	<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+//			$.ajax({
+//				type: "get",
+//				url: "http://127.0.0.1:8023/../controller/index.js",
+//				async: true,
+//				dataType: "json",
+//				success:function(data){
+//					
+//				}
+//			})
+		</script>
+</html>

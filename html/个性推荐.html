@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--轮播-->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide" ng-repeat="l in obj.lunbo[0]">
+					<img ng-src="img1/{{l}}"/>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+		<!--banner-->
+		<div class="sirenFM">
+			<ul>
+				<li ng-repeat="b in obj.banner">
+					<img ng-src="img1/{{b.img}}"/>
+					<p>{{b.p}}</p>
+				</li>
+			</ul>
+		</div>
+		<h2 ng-repeat="h in obj.h2">{{h.h2}}<span>{{h.span}}</span></h2>
+		<!--主体-->
+		<div class="main">
+			<ul>
+				<li ng-repeat="m in obj.main">
+					<a href="#">
+						<img ng-src="img1/{{m.img}}"/>
+						<p>{{m.p}}</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<h2 ng-repeat="h in obj.h21">{{h.h2}}<span>{{h.span}}</span></h2>
+		<div class="main1">
+			<ul>
+				<li ng-repeat="m1 in obj.main1">
+					<img ng-src="img1/{{m1.img}}"/>
+					<p>{{m1.p}}</p>
+					<p>{{m1.p1}}</p>
+				</li>
+			</ul>
+		</div>
+		<div class="banner">
+			<img src="img1/banner-2_02.jpg"/>
+			<p>福利黑洞:万元内耳机听个响？200元也有好声音</p>
+		</div>
+		<h3 ng-repeat="h in obj.h3">{{h.h3}}<span>{{h.span}}</span></h3>
+		<div class="main2">
+			<ul>
+				<li ng-repeat="m2 in obj.main2">
+					<a href="#">
+						<img ng-src="img1/{{m2.img}}"/>
+						<p>{{m2.p}}</p>
+						<p>{{m2.p1}}</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<h3 ng-repeat="h in obj.h31">{{h.h3}}<span>{{h.span}}</span></h3>
+		<div class="main3">
+			<ul>
+				<li ng-repeat="m3 in obj.main3">
+					<img ng-src="img1/{{m3.img}}"/>
+					<p>{{m3.p}}</p>
+					<p>{{m3.p1}}</p>
+				</li>
+			</ul>
+		</div>
+		<h3 ng-repeat="h in obj.h32">{{h.h3}}<span>{{h.span}}</span></h3>
+		<div class="banner1">
+			<ul>
+				<li ng-repeat="b1 in obj.banner1">
+					<div class="left">
+						<p><span>{{b1.span}}</span>{{b1.p}}</p>
+						<p>{{b1.p1}}</p>
+						<p>{{b1.p2}}</p>
+					</div>
+					<div class="right">
+						<img ng-src="img1/{{b1.img}}"/>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<h3 ng-repeat="h in obj.h33">{{h.h3}}<span>{{h.span}}</span></h3>
+		<div class="main">
+			<ul>
+				<li ng-repeat="m0 in obj.main0">
+					<a href="#">
+						<img ng-src="img1/{{m0.img}}"/>
+						<p>{{m0.p}}</p>
+						<p>{{m0.p1}}</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</body>
+	<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/iscroll-probe.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+//			$.ajax({
+//				type: "get",
+//				url: "http://127.0.0.1:8023/../controller/index.js",
+//				async: true,
+//				dataType: "json",
+//				success:function(data){
+//					
+//				}
+//			})
+//			var myIscroll = new IScroll("#box1");
+		</script>
+</html>

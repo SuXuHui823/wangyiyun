@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div class="gedan" ng-repeat="g in obj1.gedan">
+			<p class="banne1"><img ng-src="img2/{{g.img}}"/></p>
+			<figure class="quan">
+				<p>
+					{{g.p}}<span>{{g.span}}</span>
+				</p>
+				<ul>
+					<li>{{g.li}}</li>
+					<li>{{g.li1}}</li>
+					<li>{{g.li2}}</li>
+				</ul>
+			</figure>
+			<figure class="neirong">
+				<ul>
+					<li ng-repeat="n in obj1.neirong">
+						<img ng-src="img2/{{n.img}}"/>
+						<p>{{n.p}}</p>
+					</li>
+				</ul>
+			</figure>
+		</div>
+	</body>
+	<script src="../js/jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+//			$.ajax({
+//				type: "get",
+//				url: "http://127.0.0.1:8023/../controller/index.js",
+//				async: true,
+//				dataType: "json",
+//				success:function(data){
+//					
+//				}
+//			})
+		</script>
+</html>

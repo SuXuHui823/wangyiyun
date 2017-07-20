@@ -1,0 +1,171 @@
+html {
+  font-size: 62.5%; }
+
+* {
+  box-sizing: border-box; }
+
+.main .swiper-container {
+  width: 100%;
+  height: 15rem; }
+  .main .swiper-container .swiper-slide img {
+    width: 100%;
+    height: 100%; }
+.main .sirenFM {
+  width: 100%;
+  border-bottom: 1px solid #999; }
+  .main .sirenFM ul {
+    width: 100%;
+    display: flex;
+    height: 11rem;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #666;
+    text-align: center; }
+    .main .sirenFM ul img {
+      width: 60%; }
+    .main .sirenFM ul p {
+      margin-top: 0.6rem; }
+.main h2 {
+  width: 100%;
+  border-left: 3px solid red;
+  margin: 1rem 0;
+  font-size: 1.8rem;
+  padding-left: 1rem; }
+  .main h2 span {
+    margin-left: 2rem; }
+.main .main {
+  width: 100%; }
+  .main .main ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    color: #666; }
+    .main .main ul li {
+      width: 33.3%;
+      margin-top: 0.4rem; }
+      .main .main ul li img {
+        width: 95%; }
+      .main .main ul li p {
+        width: 80%;
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+        margin-left: 0.4rem; }
+.main .main1 {
+  width: 100%; }
+  .main .main1 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    .main .main1 ul li {
+      width: 49%;
+      font-size: 1.2rem;
+      color: #666; }
+      .main .main1 ul li img {
+        width: 100%; }
+      .main .main1 ul li p {
+        margin-left: 0.4rem;
+        line-height: 1.5rem;
+        letter-spacing: 1px; }
+.main .banner {
+  width: 100%;
+  height: 15rem;
+  padding: 3% 0%; }
+  .main .banner img {
+    width: 100%;
+    height: 100%; }
+  .main .banner p {
+    font-size: 1.4rem;
+    margin-left: 0.6rem;
+    letter-spacing: 1px;
+    margin-top: 0.4rem; }
+.main h3 {
+  width: 100%;
+  border-left: 3px solid red;
+  margin: 1.4rem 0;
+  margin-top: 2.8rem;
+  font-size: 1.8rem;
+  padding-left: 1rem; }
+  .main h3 span {
+    margin-left: 2rem; }
+.main .main2 {
+  width: 100%; }
+  .main .main2 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .main .main2 ul li {
+      width: 33.1%;
+      color: #666; }
+      .main .main2 ul li img {
+        width: 98%; }
+      .main .main2 ul li p {
+        margin-left: 0.4rem;
+        line-height: 1.5rem;
+        letter-spacing: 1px; }
+      .main .main2 ul li p:nth-of-type(1) {
+        font-size: 1.4rem; }
+      .main .main2 ul li p:nth-of-type(2) {
+        font-size: 1.2rem;
+        color: #999; }
+.main .main3 {
+  width: 100%; }
+  .main .main3 ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .main .main3 ul li {
+      width: 49%;
+      color: #666; }
+      .main .main3 ul li img {
+        width: 100%; }
+      .main .main3 ul li p {
+        margin-left: 0.4rem;
+        line-height: 1.8rem;
+        letter-spacing: 1px; }
+      .main .main3 ul li p:nth-of-type(1) {
+        font-size: 1.4rem; }
+      .main .main3 ul li p:nth-of-type(2) {
+        font-size: 1.2rem;
+        color: #999; }
+.main h3 {
+  width: 100%;
+  border-left: 3px solid red;
+  margin: 1.4rem 0;
+  margin-top: 2.8rem;
+  font-size: 1.8rem;
+  padding-left: 1rem; }
+  .main h3 span {
+    margin-left: 2rem; }
+.main .banner1 {
+  width: 100%; }
+  .main .banner1 ul {
+    width: 100%; }
+    .main .banner1 ul li {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+      .main .banner1 ul li .left {
+        width: 65%;
+        height: 8rem;
+        padding: 0% 3%;
+        border-bottom: 1px solid #ccc; }
+        .main .banner1 ul li .left p {
+          font-size: 1.6rem;
+          line-height: 2.4rem; }
+        .main .banner1 ul li .left p:nth-of-type(3) {
+          font-size: 1.2rem;
+          color: #999; }
+      .main .banner1 ul li .right {
+        width: 35%;
+        height: 8rem; }
+        .main .banner1 ul li .right img {
+          width: 100%; }
+    .main .banner1 ul li:nth-of-type(1) {
+      border-top: 1px solid #ccc; }
+
+/*# sourceMappingURL=gxtj.css.map */
